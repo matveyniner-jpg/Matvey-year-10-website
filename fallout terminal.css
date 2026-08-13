@@ -1,0 +1,9 @@
+.falloutterminal{
+  border: solid 3px;
+  border-color: red;
+  border-radius: 10px;
+ color: white;
+  font-family: Brush Script MT;
+ background-color: black;
+  text-align: center;
+}

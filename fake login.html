@@ -7,22 +7,18 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    
+    
+    
     <h1 class="fakelogin1">login</h1>
     <br>
     <h2 class="home"> <a href="index.html">home </a></h2>
     
-    <form>
-        <div>
-        <label for="fname">mail account</label>
-    <input type="text" name="fname" id="fname" placeholder="hint = from nukacola.com">
-    </div>
+    <form onsubmit="checkCredentials(event)">
+       <div>
 
-    <br>
-
-    <div>
-
-    <label for="lname">enter username</label>
-    <input type="text" name="lname" id="lname" placeholder="hint = from nukacola.com">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" placeholder="hint = from nukacola.com" required> 
 
 </div>
 
@@ -30,8 +26,8 @@
 
     <div>
 
-    <label for="hname">enter password</label>
-    <input type="text" name="hname" id="hname" placeholder="hint = password">
+    <label for="pswd">enter password</label>
+    <input type="text" name="pswd" id="pswd" placeholder="hint = password" required>
 
 </div>
 
@@ -48,5 +44,25 @@
 <input type="submit">
 </div>
 </form>
+
+<script>
+        function checkCredentials(event) {
+            event.preventDefault();
+            
+            
+            var correctUsername = "admin";
+            var correctPassword = "password";
+            
+            var userEntered = document.getElementById("username").value;
+            var passwordEntered = document.getElementById("pswd").value;
+            
+            
+            if (userEntered === correctUsername && passwordEntered === correctPassword) {
+                window.location.href = "welcome.html";
+            } else {
+                alert("Incorrect username or password. Please try again.");
+            }
+        }
+    </script>
 </body>
 </html>

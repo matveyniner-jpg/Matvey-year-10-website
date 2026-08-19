@@ -1,9 +1,40 @@
-.falloutterminal{
-  border: solid 3px;
-  border-color: red;
-  border-radius: 10px;
- color: white;
-  font-family: Brush Script MT;
- background-color: black;
+@font-face {
+  font-family: terminal;
+  src: url(FixedsysExcelsiorRegular.ttf); format:("truetype");
+}
+
+body {
+  background: rgb(7, 54, 5);
+   color: rgb(25,149,21);
+  font-family: terminal; 
+}
+
+.terminalh1{
+ color: rgb(25,149,21);
+  font-family: terminal; 
   text-align: center;
 }
+
+.terminalp{
+ color: rgb(25,149,21);
+  font-family: terminal; 
+  text-align: center;
+}
+
+.typewriterh1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .0em; /* Adjust as needed */
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* credits to https://css-tricks.com/snippets/css/typewriter-effect/ */

@@ -9,13 +9,34 @@ body {
   font-family: terminal; 
 }
 
-.terminalh1{
+h1{
  color: rgb(25,149,21);
   font-family: terminal; 
   text-align: center;
 }
 
-.terminalp{
+.home{
+  border: solid 3px;
+  border-color: rgb(21, 66, 16);
+  border-width: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+a {
+    color: inherit; /* Inherits the color of the parent text - google */
+    text-decoration: none; /* Removes the blue underline - google */ 
+}
+
+
+a:hover {
+  color: rgb(25,149,21);
+  font-size: 25px;
+}
+
+
+p{
  color: rgb(25,149,21);
   font-family: terminal; 
   text-align: center;

@@ -47,36 +47,16 @@ a:hover {
   font-size: 25px;
 }
 
-
 .fakelogin{
 text-align: center;
   float:right;
 }
 
-.fakelogin1{
-  border: solid 3px;
-  border-color: red;
-  border-width: 3px;
-  border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
- 
-}
-
-
-
 .home{
-  border: solid 3px;
-  border-color: red;
-  border-width: 3px;
-  border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  float:left;
+ text-align: center;
+float:left;
 }
 form{
   text-align: center;
- float:left;
+ float:center;
 }

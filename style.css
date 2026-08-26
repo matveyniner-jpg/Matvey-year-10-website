@@ -32,7 +32,10 @@ a {
 }
 
 .divforabunchofstuff{
+  display: flex;
+  justify-content: space-between;
   align-content: flex-start;
+  text-align: center;
 }
 
 .Nukacola{

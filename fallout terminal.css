@@ -35,6 +35,12 @@ a:hover {
   font-size: 27px;
 }
 
+.face-scan{
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+
+}
 
 p{
  color: rgb(25,149,21);

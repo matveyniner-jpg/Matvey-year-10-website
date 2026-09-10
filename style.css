@@ -1,12 +1,6 @@
 p {
-  font-family: Brush Script MT;
-  margin: 10px;
-  font-size: 50px; 
-  border: solid 3px;
-  border-color: red;
-  border-radius: 10px;
- color: white;
- text-align: center;
+  text-align: center;
+  font-size: 20px;
 }
 
 
@@ -14,7 +8,7 @@ p {
 body {
   background: rgb(0, 0, 0);
   color: white;
-  font-family: Brush Script MT;
+  font-family: 'Brush Script MT', cursive, 'Courier New', monospace;
     text-decoration: none;
     font-weight: normal;
 }
@@ -38,11 +32,21 @@ a {
   text-align: center;
 }
 
-.Nukacola{
+.Nukaworld{
   border: solid 3px;
   border-color: red;
   border-radius: 10px;
   text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Brush Script MT', cursive, 'Courier New', monospace;
+  margin: 10px;
+  font-size: 50px; 
+  border: solid 3px;
+  border-color: red;
+  border-radius: 10px;
+ color: white;
+ text-align: center;
 }
 
 .nukaworldad{
